@@ -5,29 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
   <title>Portfolio Michiel</title>
   <title>Document</title>
 </head>
 
 <body>
-  <header>
-    <div class="container header-inner">
-      <p class="logo">Michiel Desair</p>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="#introductie">Introductie</a></li>
-          <li><a href="#logboek">Logboek</a></li>
-          <li><a href="#ontwikkeling">Ontwikkeling</a></li>
-          <li><a href="#opdrachten">Opdrachten</a></li>
-          <li><a href="#reflectie">Reflectie</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <app-navbar></app-navbar>
+
   <main class="container">
     <!-- introductie -->
-    <section id="introductie">
+    <section id="introductie" class="hero">
       <h1 class="hero-title">
         Portfolio Michiel Desair
       </h1>
@@ -66,19 +53,9 @@
         </div>
       </div>
     </section>
-
-    <!-- logboek -->
-    <section id="logboek">Logboek</section>
-
-    <!-- ontwwikkeling -->
-    <section id="ontwikkeling">Ontwikkeling</section>
-
-    <!-- opdrachten -->
-    <section id="opdrachten">Opdrachten</section>
-
-    <!-- reflectie -->
-    <section id="reflectie">Reflectie</section>
   </main>
+
+  <script src="components/navbar.js" defer></script>
 </body>
 
 </html>
