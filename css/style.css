@@ -141,7 +141,7 @@ nav {
 .card-title {
   margin: 1rem 0;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .card-text {
@@ -322,6 +322,15 @@ nav {
 
 .item .item-subheader img {
   width: 1rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin: 1.5rem 0;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 
