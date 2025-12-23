@@ -15,11 +15,33 @@
   <main>
     <!-- logboek -->
     <section id="logboek" class="container">
-      <h1>Logboek</h1>
+      <h1 class="page-title">Logboek & Planning</h1>
+      <p class="page-description">Hier vind je de gedetailleerde planning voor het hele semester, inclusief de deadlines
+        voor de verschillende opdrachten.</p>
+      <div>
+        <div class="card semester-select">
+          <label class="semester-label">Selecteer semester:</label>
+
+          <details class="dropdown">
+            <summary class="dropdown-trigger">
+              <span id="active-semester">Werkplekleren 1 - 2025-2026</span>
+              <img src="images/chevron-down.svg" alt="arrow-down" class="arrow-down-img" />
+            </summary>
+
+            <!-- lijst met semesters -->
+            <ul class="dropdown-menu" id="semester-list"></ul>
+
+          </details>
+        </div>
+
+        <!-- overzicht lijst -->
+        <div class="overzicht-list" id="planning-list"></div>
+      </div>
     </section>
   </main>
 
   <script src="components/navbar.js" defer></script>
+  <script src="js/logboek.js" defer></script>
 </body>
 
 </html>

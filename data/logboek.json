@@ -1,0 +1,186 @@
+{
+    "semesters": [
+        {
+            "id": "2025-2026-werkplekleren-1",
+            "naam": "Werkplekleren 1 - 2025/2026",
+            "planning": [
+                {
+                    "week": 1,
+                    "periode": "22/09 - 26/09",
+                    "inhoud": [
+                        "Introductie werkplekleren",
+                        "Wat is programmeren",
+                        "Introductie POP, X-Factor & SDG's",
+                        "Introductie Scratch"
+                    ],
+                    "evaluaties": [],
+                    "opdrachten": []
+                },
+                {
+                    "week": 2,
+                    "periode": "29/09 - 03/10",
+                    "inhoud": [
+                        "Oriënteringstraject",
+                        "Installatie Git & GitHub",
+                        "Introductie Git & GitHub"
+                    ],
+                    "evaluaties": [
+                        "LockDownBrowser"
+                    ],
+                    "opdrachten": []
+                },
+                {
+                    "week": 3,
+                    "periode": "06/10 - 10/10",
+                    "inhoud": [
+                        "POP motivatie, kernkwadranten en reflecteren",
+                        "Labo: Git & GitHub"
+                    ],
+                    "evaluaties": [],
+                    "opdrachten": [
+                        "Scratch"
+                    ]
+                },
+                {
+                    "week": 4,
+                    "periode": "13/10 - 17/10",
+                    "inhoud": [
+                        "POP planning & studieaanpak"
+                    ],
+                    "evaluaties": [
+                        "Git & GitHub"
+                    ],
+                    "opdrachten": [
+                        "Reflecteren"
+                    ]
+                },
+                {
+                    "week": 5,
+                    "periode": "20/10 - 24/10",
+                    "inhoud": [
+                        "Gastsprekers",
+                        "EPOS reflectie van oriënteringstraject"
+                    ],
+                    "evaluaties": [
+                        "Gastsprekers"
+                    ],
+                    "opdrachten": [
+                        "Planning"
+                    ]
+                },
+                {
+                    "week": 6,
+                    "periode": "03/11 - 07/11",
+                    "inhoud": [
+                        "POP leren analyseren"
+                    ],
+                    "evaluaties": [],
+                    "opdrachten": []
+                },
+                {
+                    "week": 7,
+                    "periode": "10/11 - 14/11",
+                    "inhoud": [
+                        "POP carrièrekompas",
+                        "Feedback evaluatie"
+                    ],
+                    "evaluaties": [
+                        "C# Console"
+                    ],
+                    "opdrachten": [
+                        "POP carrièrekompas"
+                    ]
+                },
+                {
+                    "week": 8,
+                    "periode": "17/11 - 21/11",
+                    "inhoud": [
+                        "POP personal branding",
+                        "Introductie curriculum vitae",
+                        "Introductie portfolio"
+                    ],
+                    "evaluaties": [],
+                    "opdrachten": [
+                        "Feedback evaluatie C# Console"
+                    ]
+                },
+                {
+                    "week": 9,
+                    "periode": "24/11 - 28/11",
+                    "inhoud": [
+                        "Instroombevraging",
+                        "Feedback evaluatie"
+                    ],
+                    "evaluaties": [
+                        "HTML & CSS"
+                    ],
+                    "opdrachten": []
+                },
+                {
+                    "week": 10,
+                    "periode": "01/12 - 05/12",
+                    "inhoud": [
+                        "Documenteren en debuggen in C#",
+                        "Labo: Debugging (C#)"
+                    ],
+                    "evaluaties": [
+                        "Debugging (idem aan labo)"
+                    ],
+                    "opdrachten": [
+                        "Feedback evaluatie debugging"
+                    ]
+                },
+                {
+                    "week": 11,
+                    "periode": "08/12 - 12/12",
+                    "inhoud": [
+                        "Labo: WPF",
+                        "Gastsprekers"
+                    ],
+                    "evaluaties": [
+                        "SDG's"
+                    ],
+                    "opdrachten": []
+                },
+                {
+                    "week": 12,
+                    "periode": "15/12 - 19/12",
+                    "inhoud": [
+                        "POP kernkwadranten",
+                        "Afwerken curriculum vitae",
+                        "Afwerken labo WPF"
+                    ],
+                    "evaluaties": [],
+                    "opdrachten": [
+                        "Curriculum Vitae"
+                    ]
+                },
+                {
+                    "week": 13,
+                    "periode": "05/01 - 09/01",
+                    "inhoud": [
+                        "Infosessie Thalento"
+                    ],
+                    "evaluaties": [
+                        "C# WPF"
+                    ],
+                    "opdrachten": [
+                        "Portfolio"
+                    ]
+                },
+                {
+                    "week": 14,
+                    "periode": "12/01 - 16/01",
+                    "inhoud": [
+                        "Introductie Corda",
+                        "Feedback evaluatie C# WPF"
+                    ],
+                    "evaluaties": [
+                        "Inhaalmoment"
+                    ],
+                    "opdrachten": []
+                }
+            ]
+        }
+    ]
+}

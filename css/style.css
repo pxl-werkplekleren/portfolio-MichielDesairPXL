@@ -173,6 +173,157 @@ nav {
   width: 2rem;
 }
 
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.page-description {
+  font-size: 1.25rem;
+  color: var(--muted-foreground)
+}
+
+.semester-select {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+  letter-spacing: -0.01rem;
+}
+
+.semester-label {
+  font-weight: 600;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-trigger {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  background: white;
+  min-width: 320px;
+  font-weight: 500;
+}
+
+.dropdown[open] .dropdown-trigger {
+  border-color: var(--primary-color);
+}
+
+.dropdown-menu {
+  list-style: none;
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  z-index: 10;
+}
+
+.dropdown-item {
+  padding: 0.25rem 1rem;
+  border: 0.5rem;
+  cursor: pointer;
+}
+
+.dropdown-item.active {
+  font-weight: 600;
+  background-color: var(--muted);
+}
+
+.arrow-down-img {
+  width: 1.1rem;
+}
+
+.overzicht-header {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.overzicht-header img {
+  width: 1.25rem;
+}
+
+.semesteroverzicht {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
+
+.overzicht-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.overzicht-list .card {
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
+
+.item .item-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.item .week {
+  background-color: var(--primary-color);
+  padding: 0.1rem 0.75rem;
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.item .datum {
+  font-size: 1rem;
+  color: var(--muted-foreground)
+}
+
+.item hr {
+  margin: 0.5rem 0;
+  border-color: var(--muted)
+}
+
+.item .item-subheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.25rem 0;
+}
+
+.item .item-subheader h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.item ul {
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--muted-foreground)
+}
+
+.item li {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+.item .item-subheader img {
+  width: 1rem;
+}
+
 
 /* Mobile = <576px */
 @media (max-width: 576px) {
@@ -209,5 +360,13 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .page-description {
+    font-size: 1.25rem;
   }
 }
