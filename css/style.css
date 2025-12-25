@@ -10,6 +10,15 @@
   --muted-foreground: oklch(0.52 0.015 264);
   --card-color: oklch(1 0 0);
   --nav-size: 7.5vh;
+  --ontwikkeling-momenteel-color: #9810FA;
+  --ontwikkeling-goed-color: #31C950;
+  --ontwikkeling-niet-goed-color: #FF6467;
+  --text-sm: 0.8rem;
+  --text-md: 1rem;
+  --text-lg: 1.1rem;
+  --text-xl: 1.2rem;
+  --text-2xl: 1.5rem;
+  --text-hero: 2.5rem;
 }
 
 * {
@@ -26,7 +35,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Inter", "Segoe UI", Roboto, sans-serif;
-  font-size: 16px;
+  font-size: var(--text-sm);
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -75,7 +84,7 @@ header {
 }
 
 .logo {
-  font-size: 1.2rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   white-space: nowrap;
 }
@@ -95,7 +104,7 @@ nav {
 
 .nav-list a {
   display: flex;
-  font-size: 0.95rem;
+  font-size: var(--text-md);
   text-decoration: none;
   font-weight: 500;
   color: var(--muted-foreground);
@@ -110,13 +119,13 @@ nav {
 }
 
 .hero-title {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 900;
   text-wrap: nowrap;
 }
 
 .hero-description {
-  font-size: 1.25rem;;
+  font-size: var(--text-xl);
   font-weight: 400;
   color: var(--muted-foreground);
   text-wrap: nowrap;
@@ -138,26 +147,34 @@ nav {
   margin-top: 2rem;
 }
 
+.card-border {
+  border-left: 4px solid var(--primary-color);
+}
+
+.primary {
+  color: var(--primary-color)
+}
+
 .card-title {
   margin: 1rem 0;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: var(--text-xl);
 }
 
 .card-text {
-  font-size: 1rem;
+  font-size: var(--text-md);
   letter-spacing: -0.02rem;
 }
 
 .card-description {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   color: var(--muted-foreground);
   letter-spacing: -0.05rem;
 }
 
 .card-skill {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: var(--text-lg);
   margin: 1.5rem 0rem;
 }
 
@@ -174,18 +191,19 @@ nav {
 }
 
 .page-title {
-  font-size: 1.5rem;
+  font-size: var(--text-2xl);
   font-weight: 600;
 }
 
 .page-description {
-  font-size: 1.25rem;
+  font-size: var(--text-xl);
   color: var(--muted-foreground)
 }
 
 .semester-select {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  text-wrap: nowrap;
   gap: 1rem;
   font-size: 0.9rem;
   letter-spacing: -0.01rem;
@@ -277,13 +295,17 @@ nav {
   gap: 1rem;
 }
 
-.item .week {
-  background-color: var(--primary-color);
-  padding: 0.1rem 0.75rem;
+.badge {
+  line-height: 1rem;
+  padding: 0.35rem 0.75rem;
   font-weight: 500;
+  border-radius: 0.5rem;
+}
+
+.item .week-badge {
+  background-color: var(--primary-color);
   font-size: 0.75rem;
   color: white;
-  border-radius: 0.5rem;
 }
 
 .item .datum {
@@ -305,18 +327,18 @@ nav {
 }
 
 .item .item-subheader h3 {
-  font-size: 0.9rem;
+  font-size: var(--text-md);
   font-weight: 600;
 }
 
 .item ul {
   margin-left: 2rem;
   margin-bottom: 0.5rem;
-  color: var(--muted-foreground)
+  color: var(--muted-foreground);
 }
 
 .item li {
-  font-size: 0.8rem;
+  font-size: var(--text-md);
   line-height: 1.5rem;
 }
 
@@ -324,15 +346,121 @@ nav {
   width: 1rem;
 }
 
-.title {
-  font-size: 1.4rem;
-  color: var(--primary-color);
+.ontwikkeling-title {
+  display: inline-block;
+  min-width: 80%;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  font-size: var(--text-xl);
+  color: white;
+  padding: 0.75rem 1rem;
+  border: 2px solid white;
   font-weight: 600;
   margin: 1.5rem 0;
   cursor: pointer;
   text-decoration: none;
 }
 
+.ontwikkeling-description {
+  display: block;
+  width: 100%;
+  color: var(--muted-foreground);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: var(--text-lg);
+}
+
+.ontwikkeling-container {
+  padding: 1rem;
+}
+
+.rol {
+  line-height: 1rem;
+}
+
+.rol-badge {
+  background-color: var(--muted-foreground);
+  color: white;
+  font-size: 0.9rem;
+}
+
+.rol .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;  
+  margin-bottom: 2.5rem;
+}
+
+.rol .header h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-color)
+}
+
+.rol .sub-header {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  color: var(--primary-color);
+}
+
+.rol .rol-container:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.rol-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-left: 1.5rem;
+}
+
+.competentie-item {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.competentie-item strong {
+  color: var(--primary-color);
+  opacity: 0.75;
+}
+
+.rol ul {
+  list-style: circle;
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.situering-question {
+  font-weight: 600;
+}
+
+.situering-answer {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.momenteel .situering-question {
+  color: var(--ontwikkeling-momenteel-color);
+}
+.goed .situering-question {
+  color: var(--ontwikkeling-goed-color);
+}
+.niet-goed .situering-question {
+  color: var(--ontwikkeling-niet-goed-color);
+}
+
+.voorbeeld-card {
+  margin-top: 0;
+}
+
+.voorbeeld-card .card-title {
+  font-size: 1.1rem;
+}
 
 /* Mobile = <576px */
 @media (max-width: 576px) {
@@ -357,25 +485,32 @@ nav {
   }
 
   .hero-title {
-    font-size: 2.5rem;
+    font-size: var(--text-hero)
   }
 
   .hero-description {
-    font-size: 1.25rem;
+    font-size: var(--text-2xl)
   }
 
   .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    
   }
 
   .page-title {
-    font-size: 2rem;
+    font-size: var(--text-2xl);
   }
 
   .page-description {
-    font-size: 1.25rem;
+    font-size: var(--text-xl);
+  }
+
+  .semester-select {
+    flex-direction: row;
+  }
+
+  .ontwikkeling-title {
+    min-width: 30%;
   }
 }

@@ -1,0 +1,211 @@
+{
+  "rollen": [
+    {
+      "naam": "Ontwerper",
+      "competenties": [
+        {
+          "code": "OLR1",
+          "beschrijving": "De gegradueerde bereidt de realisatie van een softwareproject voor."
+        },
+        {
+          "code": "OLR2",
+          "beschrijving": "De gegradueerde maakt op basis van de analyse een onderbouwd voorstel voor het ontwerp, de programmeertaal en de methodiek. De gegradueerde stemt het voorstel af met de softwareontwikkelaar, analist en/of projectleider."
+        }
+      ],
+      "situering": {
+        "momenteel": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "Cupiditate aliquam ex pariatur eius perferendis velit id odio ut qui!"
+        ],
+        "goed": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        ],
+        "nietGoed": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        ]
+      },
+      "voorbeelden": [
+        {
+          "titel": "Voorbeeld 1",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "titel": "Voorbeeld 2",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "titel": "Voorbeeld 3",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        }
+      ]
+    },
+    {
+      "naam": "Programmeur",
+      "competenties": [
+        {
+          "code": "OLR3",
+          "beschrijving": "De gegradueerde realiseert softwareapplicaties en gegevensstructuren. De gegradueerde werkt hierbij planmatig binnen de context van het projectplan, de beschikbare tools en de vooropgestelde methodiek."
+        },
+        {
+          "code": "OLR4",
+          "beschrijving": "De gegradueerde is medeverantwoordelijk voor de eigen digitale werkomgeving en draagt bij tot de gedeelde infrastructuur die nodig is voor het ontwikkelen, testen en in productie brengen van projecten."
+        },
+        {
+          "code": "OLR5",
+          "beschrijving": "De gegradueerde programmeert softwaretoepassingen volgens de standaarden en afspraken binnen de organisatie."
+        },
+        {
+          "code": "OLR6",
+          "beschrijving": "De gegradueerde gaat in overleg met de softwareontwikkelaar, analist en/of projectleider na of het opgeleverde product onderhoud en/of aanpassingen nodig heeft. De gegradueerde voert het onderhoud en de aanpassingen projectmatig uit, rekening houdend met eerder gemaakte afspraken."
+        }
+      ],
+      "situering": {
+        "momenteel": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "Cupiditate aliquam ex pariatur eius perferendis velit id odio ut qui!"
+        ],
+        "goed": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        ],
+        "nietGoed": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        ]
+      },
+      "voorbeelden": [
+        {
+          "titel": "Voorbeeld 1",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "titel": "Voorbeeld 2",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "titel": "Voorbeeld 3",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        }
+      ]
+    },
+    {
+      "naam": "Tester",
+      "competenties": [
+        {
+          "code": "OLR7",
+          "beschrijving": "De gegradueerde gaat volgens testscenario's de werking en functionaliteit van de gerealiseerde code na en verbetert deze op basis van feedback van de softwareontwikkelaar, analist, projectleider en/of gebruikers."
+        }
+      ],
+      "situering": {
+        "momenteel": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "Cupiditate aliquam ex pariatur eius perferendis velit id odio ut qui!"
+        ],
+        "goed": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        ],
+        "nietGoed": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        ]
+      },
+      "voorbeelden": [
+        {
+          "titel": "Voorbeeld 1",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "titel": "Voorbeeld 2",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "titel": "Voorbeeld 3",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        }
+      ]
+    },
+    {
+      "naam": "Communicator / Teamspeler",
+      "competenties": [
+        {
+          "code": "OLR8",
+          "beschrijving": "De gegradueerde werkt constructief en actief samen in een multidisciplinair team en participeert actief tijdens overlegmomenten. De gegradueerde zoekt mee naar oplossingen om problemen te vermijden."
+        },
+        {
+          "code": "OLR9",
+          "beschrijving": "De gegradueerde communiceert en rapporteert efficiënt over het geleverde werk, aangepast aan het doelpubliek en gebruikt hiervoor het gepaste Engelstalige vakjargon."
+        },
+        {
+          "code": "OLR10",
+          "beschrijving": "De gegradueerde documenteert de zelf ontwikkelde applicaties op een adequate en overzichtelijke manier gebruikmakend van een kennisdatabank en volgens de afspraken binnen de organisatie. De gegradueerde geeft kwalitatieve input voor de gebruikershandleidingen, referentiegidsen en online hulpbronnen."
+        }
+      ],
+      "situering": {
+        "momenteel": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "Cupiditate aliquam ex pariatur eius perferendis velit id odio ut qui!"
+        ],
+        "goed": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        ],
+        "nietGoed": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        ]
+      },
+      "voorbeelden": [
+        {
+          "titel": "Voorbeeld 1",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "titel": "Voorbeeld 2",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "titel": "Voorbeeld 3",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        }
+      ]
+    },
+    {
+      "naam": "Levenslang lerende IT-professional",
+      "competenties": [
+        {
+          "code": "OLR11",
+          "beschrijving": "De gegradueerde onderhoudt zijn deskundigheidsniveau door relevante duurzame IT- en maatschappelijke ontwikkelingen actief op te volgen."
+        },
+        {
+          "code": "OLR12",
+          "beschrijving": "De gegradueerde is zelfkritisch, ontwikkelt de nodige zelfkennis en gebruikt deze om zijn persoonlijke en professionele groei te bevorderen."
+        },
+        {
+          "code": "OLR13",
+          "beschrijving": "De gegradueerde handelt deontologisch en duurzaam, en houdt rekening met de veiligheids- en privacyrichtlijnen."
+        }
+      ],
+      "situering": {
+        "momenteel": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "Cupiditate aliquam ex pariatur eius perferendis velit id odio ut qui!"
+        ],
+        "goed": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        ],
+        "nietGoed": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        ]
+      },
+      "voorbeelden": [
+        {
+          "titel": "Voorbeeld 1",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "titel": "Voorbeeld 2",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        },
+        {
+          "titel": "Voorbeeld 3",
+          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+        }
+      ]
+    }
+  ]
+}

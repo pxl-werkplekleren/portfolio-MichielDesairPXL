@@ -32,7 +32,7 @@ function loadSemester(semester) {
 
     card.innerHTML = `
       <div class="item-header">
-        <span class="week">Week ${week.week}</span>
+        <span class="badge week-badge">Week ${week.week}</span>
         <span class="datum">${week.periode}</span>
       </div>
       <hr>
