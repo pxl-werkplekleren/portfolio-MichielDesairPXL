@@ -8,7 +8,7 @@ fetch('./data/rollen.json')
 
 function renderRol(rol) {
   const rolCard = document.createElement('div');
-  rolCard.className = 'card rol';
+  rolCard.className = 'card rol rol-card';
 
   rolCard.innerHTML = `
     <div class="header">

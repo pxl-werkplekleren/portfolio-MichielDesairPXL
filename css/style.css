@@ -3,6 +3,7 @@
 :root {
   --text-color: oklch(0.25 0.015 264);
   --primary-color: oklch(0.42 0.19 264);
+  --secondary-color: oklch(55.843% 0.18209 265.669);
   --background-color: oklch(0.98 0.002 264);
   --header-background-color: oklch(0.98 0.002 264);
   --border-color: oklch(0.89 0.01 264);
@@ -296,7 +297,6 @@ nav {
 }
 
 .badge {
-  line-height: 1rem;
   padding: 0.35rem 0.75rem;
   font-weight: 500;
   border-radius: 0.5rem;
@@ -356,7 +356,7 @@ nav {
   padding: 0.75rem 1rem;
   border: 2px solid white;
   font-weight: 600;
-  margin: 1.5rem 0;
+  margin-bottom: 0.5rem;
   cursor: pointer;
   text-decoration: none;
 }
@@ -374,35 +374,56 @@ nav {
   padding: 1rem;
 }
 
+#rollen-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem
+}
+
 .rol {
-  line-height: 1rem;
+  line-height: 1.5rem;
+  position: relative;
+}
+
+.rol-card {
+  border: 3px solid var(--secondary-color);
 }
 
 .rol-badge {
-  background-color: var(--muted-foreground);
-  color: white;
-  font-size: 0.9rem;
+  background-color: white;
+  color: var(--secondary-color);
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  font-size: var(--text-sm);
+  text-transform: uppercase;
 }
 
 .rol .header {
+  position: absolute;
+  top: -4%;
+  left: -1.1%;
   display: flex;
   flex-direction: row;
+  background-color: var(--secondary-color);
+  min-width: 30%;
+  border-radius: 10px;
+  border: 7px solid var(--background-color);
   align-items: center;
-  gap: 1.5rem;  
-  margin-bottom: 2.5rem;
+  padding: 0.8rem 1rem;
 }
 
 .rol .header h3 {
-  font-size: 1.25rem;
+  font-size: var(--text-lg);
   font-weight: 600;
-  color: var(--primary-color)
+  color: white;
+  margin-left: 1.25rem;
 }
 
 .rol .sub-header {
-  font-size: 1.15rem;
+  font-size: var(--text-xl);
   font-weight: 600;
   margin-bottom: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   color: var(--primary-color);
 }
 
@@ -415,6 +436,7 @@ nav {
   flex-direction: column;
   gap: 1.25rem;
   margin-left: 1.5rem;
+  font-size: var(--text-md);
 }
 
 .competentie-item {
@@ -437,6 +459,7 @@ nav {
 
 .situering-question {
   font-weight: 600;
+  font-size: var(--text-md);
 }
 
 .situering-answer {
