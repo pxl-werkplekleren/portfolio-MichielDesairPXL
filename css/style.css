@@ -502,6 +502,35 @@ nav {
   font-size: 1.1rem;
 }
 
+.reflectie-container {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.reflectie-container p {
+  font-size: var(--text-lg);
+  margin: 1rem 0;
+  line-height: 1.5rem;
+}
+
+.kernkwaliteit-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.kernkwaliteit-container span {
+  border: var(--primary-color) 3px solid;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  font-size: var(--text-md);
+  background-color: white;
+}
+
+.kernkwaliteit-container span strong {
+  color: var(--primary-color);
+}
+
 /* Mobile = <576px */
 @media (max-width: 576px) {
 }
