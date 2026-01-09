@@ -62,6 +62,8 @@ function renderVoorbeeld(voorbeeld) {
     <div class="card voorbeeld-card">
       <h5 class="card-title">${voorbeeld.titel}</h5>
       <p class="card-description">${voorbeeld.beschrijving}</p>
+      <br/>
+      <p class="card-description">${voorbeeld.link}</p>
     </div>
   `;
 }

@@ -14,28 +14,31 @@
       ],
       "situering": {
         "momenteel": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "Cupiditate aliquam ex pariatur eius perferendis velit id odio ut qui!"
+          "Ik gebruik momenteel Figma voor maken/evalueren van front-end designs.",
+          "Ik gebruik Trello om mijn werk te organiseren en taken bij te houden."
         ],
         "goed": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          "Ik begrijp redelijk goed wat er nodig is om aan een project te beginnen."
         ],
         "nietGoed": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          "Ik heb nog moeite met het maken van gebruiksvriendelijke, professionele wireframes en designs met bijvoorbeeld Figma."
         ]
       },
       "voorbeelden": [
         {
-          "titel": "Voorbeeld 1",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "Ontwerpen van wireframes/design voor een website met Figma",
+          "beschrijving": "Ik gebruik voor persoonlijke projecten momenteel Figma om designs voor te bereiden. Als ik voor iemand anders werk, laat ik hun eerst het design goedkeuren voordat ik begin met coderen.",
+          "link": "De link light bij OLR2, ik laat mijn Figma designs goedkeuren in overleg met een projectleider of klant."
         },
         {
-          "titel": "Voorbeeld 2",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "Ik gebruik Trello om mijn werk voor te bereiden en organiseren",
+          "beschrijving": "Voordat ik begin met programmeren, maak ik enkele to-do's aan in Trello.",
+          "link": "De link ligt bij OLR1, ik organiseer mijn werk op voorhand met behulp van Trello."
         },
         {
-          "titel": "Voorbeeld 3",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "Microsoft Project",
+          "beschrijving": "Ik heb Microsoft Project gebruikt om een heel project te plannen en op te volgen.",
+          "link": "De link ligt bij OR1, ik organiseer op voorhand mijn werk met behulp van Microsoft Project."
         }
       ]
     },
@@ -61,28 +64,32 @@
       ],
       "situering": {
         "momenteel": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "Cupiditate aliquam ex pariatur eius perferendis velit id odio ut qui!"
+          "Ik kan momenteel zelfstandig kleine tot middelgrote projecten programmeren met verschillende programmeertalen zoals: JavaScript, Python en C#.",
+          "Ik specialiseer in web development met frameworks zoals React en Next.js."
         ],
         "goed": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          "Ik kan diverse programmeertalen en frameworks goed toepassen in projecten."
         ],
         "nietGoed": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          "Ik kan niet alle programmeertalen goed gebruiken. Het hangt af van de taal hoe goed ik ermee kan werken.",
+          "Ik maak de meeste websites zelfstandig, ik ga dus niet vaak in overleg met een projectleider of klant tijdens het programmeren."
         ]
       },
       "voorbeelden": [
         {
-          "titel": "Voorbeeld 1",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "Aanpassen website van klant na feedback",
+          "beschrijving": "Ik heb bij het maken van immotogo.be regelmatig aanpassingen moeten doen na feedback van de klant.",
+          "link": "De link ligt bij OLR6, ik maak aanpassingen in projecten na overlet met de klant."
         },
         {
-          "titel": "Voorbeeld 2",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "GitHub voor versiebeheer",
+          "beschrijving": "Ik gebruik GitHub voor versiebeheer op bijna al mijn projecten.",
+          "link": "De link ligt bij OLR4, ik gebruik GitHub voor versiebeheer."
         },
         {
-          "titel": "Voorbeeld 3",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "Website: immotogo.be",
+          "beschrijving": "Ik heb zelf deze website gebouwd voor een klant, hierbij moest ik voldoen aan de vereisten die de klant stelde.",
+          "link": "De link ligt bij OLR3, ik heb een project gerealiseerd volgens vereisten."
         }
       ]
     },
@@ -96,28 +103,32 @@
       ],
       "situering": {
         "momenteel": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "Cupiditate aliquam ex pariatur eius perferendis velit id odio ut qui!"
+          "Ik kan momenteel zelf kleine foutjes opsporen en oplossen in mijn code.",
+          "Ik gebruik logs in mijn code om fouten op te sporen.",
+          "Na het ontvangen van feedback bij bijvoorbeeld bugs, kan ik deze meestal zelf oplossen."
         ],
         "goed": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          "Ik kan in diverse talen zoals JavaScript zelf fouten opsporen en oplossen."
         ],
         "nietGoed": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          "Ik kan niet alle programmeertalen even goed gebruiken om te debuggen en fouten op te lossen."
         ]
       },
       "voorbeelden": [
         {
-          "titel": "Voorbeeld 1",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "Website: immotogo.be logs",
+          "beschrijving": "Ik gebruik logs om fouten op te sporen in mijn code.",
+          "link": "De link ligt bij OLR7, ik gebruik logs om fouten op te sporen in mijn code."
         },
         {
-          "titel": "Voorbeeld 2",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "C# debugging",
+          "beschrijving": "Ik gebruikte de logs en de IDE om fouten op te sporen in mijn code bij de opdracht van C# debugging binnen WPL1.",
+          "link": "De link ligt bij OLR7, ik gebruik logs om fouten op te sporen in mijn code."
         },
         {
-          "titel": "Voorbeeld 3",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "C# Essentials",
+          "beschrijving": "Tijdens de lessen van C# Essentials en tijdens evaluaties van C# opdrachten/evaluaties, heb ik geleerd om fouten op te sporen en op te lossen in C# code met ingebouwde functies zoals: 'System.Println()' en in de IDE.",
+          "link": "De link ligt bij OLR7, ik gebruik ingebouwde functies om fouten op te sporen in mijn code."
         }
       ]
     },
@@ -139,28 +150,32 @@
       ],
       "situering": {
         "momenteel": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "Cupiditate aliquam ex pariatur eius perferendis velit id odio ut qui!"
+          "Ik heb al samengewerkt met andere programmeurs aan projecten",
+          "Ik maak zeer simpele documentatie voor het gebruik van mijn projecten"
         ],
         "goed": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          "Ik kan redelijk goed het vakjargon gebruiken bij communicatie over mijn werk."
         ],
         "nietGoed": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          "Ik schrijf nog geen uitgebreide documentatie voor mijn projecten en bij ingewikkelde functies die ik schrijf.",
+          "Ik heb nog niet veel ervaring met samenwerken in grote teams aan projecten."
         ]
       },
       "voorbeelden": [
         {
-          "titel": "Voorbeeld 1",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "Groepen in lessen van PXL",
+          "beschrijving": "Ik heb vaker samengewerkt met andere studenten aan projecten/taken.",
+          "link": "De link ligt bij OLR8, ik heb samengewerkt met andere programmeurs aan projecten."
         },
         {
-          "titel": "Voorbeeld 2",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "Documentatie voor persoonlijke projecten",
+          "beschrijving": "Ik maak zeer simpele documentatie voor het gebruik van mijn projecten. Zo kunnen degene die mijn code gebruiken, snel aan de slag.",
+          "link": "De link ligt bij OLR10, ik maak documentatie voor mijn projecten."
         },
         {
-          "titel": "Voorbeeld 3",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "Communicatie met klanten",
+          "beschrijving": "Ik communiceer met mensen voor wie ik een project maak, waarbij ik het juiste vakjargon gebruik om mijn ideeën duidelijker over te brengen.",
+          "link": "De link ligt bij OLR9, ik communiceer met klanten over hun vereisten en wensen voor hun projecten."
         }
       ]
     },
@@ -182,28 +197,32 @@
       ],
       "situering": {
         "momenteel": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "Cupiditate aliquam ex pariatur eius perferendis velit id odio ut qui!"
+          "Ik leer bij over nieuwe technologieën online via tutorials/cursussen."
         ],
         "goed": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          "Ik ben goed op de hoogte van recente ontwikkelingen in bepaalde programmeertalen en technologieën, zoals Next.js en React.",
+          "Ik weet dat je als developer rekening moet houden met bepaalde ethische richtlijnen."
         ],
         "nietGoed": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          "Ik kan niet van alle recente ontwikkelingen in de IT-sector op de hoogte blijven.",
+          "Ik ken niet alle ethische richtlijnen die van toepassing zijn binnen IT."
         ]
       },
       "voorbeelden": [
         {
-          "titel": "Voorbeeld 1",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "Youtube tutorials / Documentatie",
+          "beschrijving": "Ik volg programmeertutorials op YouTube en documentatie van frameworks van bijvoorbeeld Next.js en React om nieuwe technologieën te leren en te onderhouden.",
+          "link": "De link ligt bij OLR11/OLR12, ik leer bij over nieuwe technologieën online via tutorials/documentatie."
         },
         {
-          "titel": "Voorbeeld 2",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": ".env bestanden voor veiligheid",
+          "beschrijving": "Ik gebruik .env bestanden om gevoelige informatie zoals API-sleutels veilig op te slaan.",
+          "link": "De link ligt bij OLR13, ik houd rekening met veiligheidsrichtlijnen door het gebruik van .env bestanden."
         },
         {
-          "titel": "Voorbeeld 3",
-          "beschrijving": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+          "titel": "Zelfreflectie",
+          "beschrijving": "Tijdens werkplekleren 1 heb ik regelmatig op eigen projecten gereflecteerd. Bijvoorbeeld bij het reflecteren op mijn C# console applicatie in lesweek 8.",
+          "link": "De link ligt bij OLR12, ik reflecteer op mijn eigen werk om mezelf te verbeteren."
         }
       ]
     }
