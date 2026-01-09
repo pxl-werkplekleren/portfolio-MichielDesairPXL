@@ -1,0 +1,203 @@
+{
+  "opdrachten": [
+    {
+      "week": 2,
+      "datum": "02-10-2025",
+      "titel": "LockDownBrowser",
+      "beschrijving": "In deze evaluatie moest LockDownBrowser op voorhand geïnstalleerd worden, verdere voorkennis was niet vereist.",
+      "uitdagingen": [],
+      "bijgeleerd": []
+    },
+    {
+      "week": 3,
+      "datum": "08-10-2025",
+      "titel": "Project Scratch",
+      "beschrijving": "In deze opdracht wordt een een spel ontwikkeld met Scratch. Het spel gebruikte events, variabelen, randomisatie etc.",
+      "uitdagingen": [
+        "Een logisch denkproces hanteren",
+        "Het correct laten samenwerken van verschillende scripts in Scratch"
+      ],
+      "bijgeleerd": [
+        "Hoe ik een eenvoudig spel kan ontwikkelen met Scratch"
+      ]
+    },
+    {
+      "week": 4,
+      "datum": "16-10-2025",
+      "titel": "Git & GitHub",
+      "beschrijving": "In deze evaluatie werd er getest op de kennis van Git en GitHub. Er werd verwacht dat je commits kon uitvoeren op een repository.",
+      "uitdagingen": [],
+      "bijgeleerd": []
+    },
+    {
+      "week": 4,
+      "datum": "16-10-2025",
+      "titel": "POP: AIM-reflectie op Scratch Project",
+      "beschrijving": "In deze opdracht reflecteer ik op mijn Scratch project aan de hand van het AIM-reflectiemodel en vul ik de kernkwadranten in op basis van mijn kernkwaliteiten.",
+      "uitdagingen": [
+        "Het gebruik van het AIM-reflectiemodel",
+        "Het correct invullen van de kernkwadranten"
+      ],
+      "bijgeleerd": [
+        "Hoe ik kan reflecteren aan de hand van het AIM-model",
+        "Inzicht in mijn kernkwaliteiten via de kernkwadranten"
+      ]
+    },
+    {
+      "week": 5,
+      "datum": "22-10-2025",
+      "titel": "POP: Planning ",
+      "beschrijving": "In deze opdracht maak ik een gedetailleerde semester- en weekplanning.",
+      "uitdagingen": [
+        "Het realistisch inschatten van tijd voor taken",
+        "Het opstellen van een haalbare planning"
+      ],
+      "bijgeleerd": [
+        "Het belang van tijdmanagement",
+        "Hoe ik een effectieve planning kan maken en kan gebruiken om mijn studie te organiseren"
+      ]
+    },
+    {
+      "week": 5,
+      "datum": "23-10-2025",
+      "titel": "Reflectie gastsprekers",
+      "beschrijving": "In deze evaluatie gaf ik mijn mening over de gastsprekers die kwamen vertellen over het bedrijfsleven in de IT-sector.",
+      "uitdagingen": [
+        "De juiste woorden vinden om mijn mening te uiten",
+        "Objectief blijven in mijn reflectie"
+      ],
+      "bijgeleerd": [
+        "Ik heb meer inzicht gekregen in de IT-sector en de verschillende carrièremogelijkheden",
+        "Hoe een dag in het leven van een IT-professional eruitziet"
+      ]
+    },
+    {
+      "week": 7,
+      "datum": "13-11-2025",
+      "titel": "C# Console",
+      "beschrijving": "In deze evaluatie heb ik aan een C# console-applicatie verder gewerkt, en uitbreidingen toegevoegd. Hiervoor werd gebruik gemaakt van variabelen, console- en herhalingsstructuren en methodes.",
+      "uitdagingen": [
+        "Het correct aanpassen van code in een bestaande applicatie",
+        "Het toepassen van herhalingsstructuren en methodes"
+      ],
+      "bijgeleerd": [
+        "Het gebruiken en aanpassen van variabelen, console- en herhalingsstructuren, constructors en methodes in C#"
+      ]
+    },
+    {
+      "week": 7,
+      "datum": "19-11-2025",
+      "titel": "POP: Carrièrekompas / Werkveldverkenning",
+      "beschrijving": "In deze opdracht moest ik een vacature opzoeken die mij aansprak, en in 3 zinnen motiveren waarom deze vacature mij aanspreekt.",
+      "uitdagingen": [
+        "Het vinden van een geschikte vacature",
+        "Het bondig formuleren van mijn motivatie"
+      ],
+      "bijgeleerd": [
+        "Het gebruiken van vacaturesite om een geschikte vacature te zoeken"
+      ]
+    },
+    {
+      "week": 8,
+      "datum": "19-11-2025",
+      "titel": "Reflectie PE: C# Console",
+      "beschrijving": "In deze opdracht vergelijk ik de oplossing van mijn C# console-applicatie met die van de lector, en reflecteer ik mijn aanpak.",
+      "uitdagingen": [
+        "Het objectief vergelijken van mijn oplossing met die van de lector",
+        "Het kritisch reflecteren op mijn eigen code"
+      ],
+      "bijgeleerd": [
+        "Hoe ik mijn programmeervaardigheden kan verbeteren door te leren van anderen"
+      ]
+    },
+    {
+      "week": 9,
+      "datum": "27-11-2025",
+      "titel": "HTML & CSS",
+      "beschrijving": "In deze evaluatie gebruik ik HTML & CSS om een website zo goed mogelijk na te bootsen aan de hand van een voorbeeld.",
+      "uitdagingen": [
+        "Hoe ik de correcte HTML-structuur opbouw",
+        "Het toepassen van CSS-styling om de website er zo identiek mogelijk uit te laten zien"
+      ],
+      "bijgeleerd": [
+        "Het gebruiken van HTML & CSS om een website zo goed mogelijk na te bootsen"
+      ]
+    },
+    {
+      "week": 10,
+      "datum": "04-12-2025",
+      "titel": "Debugging (C#)",
+      "beschrijving": "In deze evaluatie ga ik zelfstandig fouten oplossen in een bestaande C#-applicatie.",
+      "uitdagingen": [
+        "Het identificeren van fouten in de code",
+        "Het toepassen van debugging-technieken om de fouten op te lossen"
+      ],
+      "bijgeleerd": [
+        "Het gebruiken van debugging-technieken in Visual Studio 2022 C# om fouten op te lossen"
+      ]
+    },
+    {
+      "week": 10,
+      "datum": "05-12-2025",
+      "titel": "Reflectie PE: Debugging (C#)",
+      "beschrijving": "In deze opdracht reflecteer ik op de 'Debugging (C#)'-evalutie",
+      "uitdagingen": [
+        "Het kritisch reflecteren op mijn eigen aanpak"
+      ],
+      "bijgeleerd": []
+    },
+    {
+      "week": 11,
+      "datum": "12-12-2025",
+      "titel": "Reflectie: SDG's",
+      "beschrijving": "In deze evalutie beantwoord ik enkele open vragen over de SDG's die aan bod kwamen tijdens het gastcollege van Brightest.",
+      "uitdagingen": [
+        "Luisteren naar en begrijpen van het gastcollege",
+        "Het correct beantwoorden van de open vragen"
+      ],
+      "bijgeleerd": [
+        "Wat SDG's zijn, en belang van SDG's in de IT-sector"
+      ]
+    },
+    {
+      "week": 12,
+      "datum": "12-12-2025",
+      "titel": "Curriculum Vitae",
+      "beschrijving": "In deze opdracht bouw ik mijn eigen CV in HTML & CSS. Ik houd rekening met vereisten zoals structuur, opmaak en inhoud.",
+      "uitdagingen": [
+        "Het volledig zelfstandig maken van een CV in HTML & CSS",
+        "Het toepassen van correcte HTML-structuur en CSS-styling"
+      ],
+      "bijgeleerd": [
+        "Hoe ik zonder frameworks een CV kan bouwen in HTML & CSS",
+        "Het belang van een goed gestructureerd en opgemaakt CV"
+      ]
+    },
+    {
+      "week": 13,
+      "datum": "08-01-2026",
+      "titel": "C# WPF",
+      "beschrijving": "In deze evaluatie werk ik een C# WPF-applicatie verder uit. Ik houd rekening met vereisten.",
+      "uitdagingen": [
+        "Het correct aanpassen van code in een bestaande WPF-applicatie"
+      ],
+      "bijgeleerd": [
+        "Het gebruiken en aanpassen van WPF-specifieke elementen in C#",
+        "Het werken met XAML voor de UI-ontwerp"
+      ]
+    },
+    {
+      "week": 13,
+      "datum": "09-01-2026",
+      "titel": "Portfolio",
+      "beschrijving": "In deze opdracht bouw ik zelfstandig mijn portfolio website in HTML, CSS en een beetje JavaScript.",
+      "uitdagingen": [
+        "Het volledig zelfstandig maken van een portfolio website in HTML en CSS rekening houdend met vereisten in de opgave"
+      ],
+      "bijgeleerd": [
+        "Hoe ik een portfolio website kan bouwen in HTML, CSS en een beetje JavaScript",
+        "Het belang van een goed gestructureerde en opgemaakte portfolio website"
+      ]
+    }
+  ]
+}

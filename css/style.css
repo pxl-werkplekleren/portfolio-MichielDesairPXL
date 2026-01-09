@@ -167,10 +167,23 @@ nav {
   letter-spacing: -0.02rem;
 }
 
+.opdracht-title {
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: var(--text-xl);
+}
+
 .card-description {
   font-size: var(--text-md);
   color: var(--muted-foreground);
   letter-spacing: -0.05rem;
+}
+
+.opdracht-description {
+  font-size: var(--text-lg);
+  color: var(--muted-foreground);
+  letter-spacing: -0.05rem;
+  margin-bottom: 1rem;
 }
 
 .card-skill {
@@ -306,6 +319,10 @@ nav {
   background-color: var(--primary-color);
   font-size: 0.75rem;
   color: white;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .item .datum {
@@ -346,7 +363,7 @@ nav {
   width: 1rem;
 }
 
-.ontwikkeling-title {
+.title {
   display: inline-block;
   min-width: 80%;
   border-radius: 5px;
@@ -361,7 +378,7 @@ nav {
   text-decoration: none;
 }
 
-.ontwikkeling-description {
+.description {
   display: block;
   width: 100%;
   color: var(--muted-foreground);
@@ -533,7 +550,7 @@ nav {
     flex-direction: row;
   }
 
-  .ontwikkeling-title {
+  .title {
     min-width: 30%;
   }
 }
