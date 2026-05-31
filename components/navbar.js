@@ -11,6 +11,7 @@ class AppNavbar extends HTMLElement {
               <li><a href="ontwikkeling.html">Ontwikkeling</a></li>
               <li><a href="opdrachten.html">Opdrachten</a></li>
               <li><a href="reflectie.html">Reflectie</a></li>
+              <li><a href="wpl2.html">Reflectie WPL2</a></li>
             </ul>
           </nav>
         </div>

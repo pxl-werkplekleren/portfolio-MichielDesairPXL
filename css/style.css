@@ -513,6 +513,14 @@ nav {
   line-height: 1.5rem;
 }
 
+.kernkwadrant-label {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
 .kernkwaliteit-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -529,6 +537,100 @@ nav {
 
 .kernkwaliteit-container span strong {
   color: var(--primary-color);
+}
+
+.nav-wpl2 {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.nav-wpl2:hover {
+  background-color: var(--secondary-color) !important;
+  color: white !important;
+}
+
+.wpl-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.wpl-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.wpl-card-primary {
+  border-left-color: var(--secondary-color);
+}
+
+.wpl-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  width: fit-content;
+}
+
+.wpl-badge-1 {
+  background-color: var(--muted);
+  color: var(--muted-foreground);
+}
+
+.wpl-badge-2 {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.wpl-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.wpl-links a {
+  font-size: var(--text-sm);
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.wpl-links a:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.wpl-link-primary {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.wpl-link-primary:hover {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+
+.pdf-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.25rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: var(--text-md);
+}
+
+.pdf-link:hover {
+  background-color: var(--secondary-color);
 }
 
 /* Mobile = <576px */
@@ -573,6 +675,10 @@ nav {
 
   .page-description {
     font-size: var(--text-xl);
+  }
+
+  .wpl-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .semester-select {

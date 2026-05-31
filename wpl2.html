@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Werkplekleren 2</title>
+</head>
+
+<body>
+  <app-navbar></app-navbar>
+
+  <main>
+    <section id="wpl2" class="container">
+      <h1 class="page-title">Werkplekleren 2</h1>
+      <p class="page-description">Case beschrijving, mijn aandeel en reflectie op Werkplekleren 2.</p>
+
+      <section id="case-beschrijving">
+        <a class="title" href="#case-beschrijving">Case beschrijving</a>
+        <p class="description">Beschrijving van het ClockWise project (team 12).</p>
+        <div class="reflectie-container">
+          <p>ClockWise is een tijdsregistratieapplicatie die wij als team 12 hebben ontwikkeld tijdens
+            Werkplekleren 2. De aanleiding is een nieuwe Belgische wet die vanaf 1 januari 2027 verplicht dat elk
+            bedrijf nauwkeurige digitale tijdregistratie bijhoudt.</p>
+
+          <p>De applicatie heeft een Vue.js frontend en een ASP.NET Core backend.
+            Afhankelijk van je rol zie je een ander dashboard: een medewerker ziet enkel zijn eigen uren, een teamleider
+            de uren van zijn team en een bedrijfsadmin heeft toegang tot het volledige bedrijfsoverzicht. Daarboven is
+            er ook een platformadmin rol, die alle bedrijven, gebruikers, licenties en orders kan beheren.</p>
+
+          <p>Andere functionaliteiten zijn: inloggen via JWT-authenticatie, wachtwoord resetten via e-mail, e-mailadres
+            wijzigen, tijdsregistraties starten en stoppen en licentiebestellingen plaatsen.</p>
+
+          <p>Het team bestond uit 6 mensen: 2 PRO-studenten voor de development en 4 DVO-studenten voor het design en
+            de branding.</p>
+        </div>
+      </section>
+
+      <section id="mijn-aandeel">
+        <a class="title" href="#mijn-aandeel">Mijn aandeel</a>
+        <p class="description">Mijn individuele bijdrage aan het ClockWise project.</p>
+        <div class="reflectie-container">
+          <p>Als PRO-student heb ik me voornamelijk gefocust op de frontend ontwikkeling van ClockWise. De frontend is
+            gebouwd met Vue.js en bestaat uit meerdere views en componenten voor de verschillende rollen binnen de
+            applicatie.</p>
+
+          <p>Ik heb onder andere gewerkt aan de dashboardpagina, waar gebruikers hun tijdsregistraties kunnen starten
+            en stoppen en een overzicht van hun uren zien. Verder heb ik meegewerkt aan de profielpagina, waar
+            gebruikers hun gegevens, wachtwoord en e-mailadres kunnen beheren. Voor de bedrijfsadmin heb ik views
+            gebouwd voor teambeheer en licentieoverzicht, en voor de platformadmin views voor gebruikers-, bedrijven- en
+            licentiebeheer.</p>
+
+          <p>Naast de views heb ik ook herbruikbare componenten gemaakt zoals de sidebar, modals, tabcomponenten en
+            tabelrijen voor de verschillende beheerpagina's. Door componenten op te splitsen bleef de code
+            overzichtelijk
+            en makkelijk uitbreidbaar.</p>
+
+          <p>De frontend communiceert via API-calls met de ASP.NET Core backend. Ik heb de authenticatie-flow mee
+            opgezet, inclusief login, wachtwoord resetten en e-mailadres wijzigen.</p>
+
+          <p>Het werken in een team met DVO-studenten was een nieuwe ervaring. Zij leverden het design aan, ik zorgde
+            ervoor dat dit ook daadwerkelijk werkte in de browser. Ik heb geleerd om goed te communiceren over
+            technische beperkingen en om mijn keuzes af te stemmen op het aangeleverde ontwerp.</p>
+        </div>
+      </section>
+
+      <section id="aim-reflectie">
+        <a class="title" href="#aim-reflectie">AIM-reflectie op Werkplekleren 2</a>
+        <p class="description">Mijn persoonlijke reflectie op basis van het AIM-model.</p>
+        <div class="reflectie-container">
+          <p>Tijdens Werkplekleren 2 heb ik als onderdeel van team 12 gewerkt aan ClockWise, een
+            tijdsregistratieapplicatie voor Belgische bedrijven. Als PRO-student heb ik me voornamelijk beziggehouden
+            met de Vue.js frontend, samen met een team van 6 studenten: 2 PRO en 4 DVO (1 WEB).</p>
+
+          <p>Ik vond het samenwerken met DVO-studenten erg leuk. Het was de eerste keer dat ik in een groter team
+            werkte. De diepgang met user stories en Jira vond ik verbazingwekkend interessant.</p>
+
+          <p>Een minder leuk element vond ik de afstemming binnen het team. Met 6 mensen is het soms lastig om duidelijk
+            af te spreken wie wat doet. Ook Vue.js leren terwijl het project al liep was soms stressvol.</p>
+
+          <p>Ik heb geleerd hoe belangrijk communicatie is in een team. Ik heb ook leren goed met Vue.js te werken.
+            Voor een volgend project wil ik eerder aangeven wanneer iets technisch niet haalbaar is, zodat er op tijd
+            bijgestuurd kan worden.</p>
+
+          <p>Ik ben trots op het eindresultaat. ClockWise is een volwaardige applicatie die echt werkt en een
+            meerwaarde heeft. Wat indruk op me heeft gemaakt is hoe professioneel de designs van de DVO-studenten zijn.
+            Het was leuk en uitdagend om die tot leven te brengen in de browser.</p>
+        </div>
+      </section>
+
+      <section id="kernkwadranten">
+        <a class="title" href="#kernkwadranten">Wat neem ik mee naar volgende WPL</a>
+        <div class="reflectie-container">
+
+          <p class="kernkwadrant-label">Kernkwadrant 1</p>
+          <div class="kernkwaliteit-container">
+            <span class="opdracht-title"><strong>Kernkwaliteit:</strong> Leergierigheid</span>
+            <span class="opdracht-title"><strong>Valkuil:</strong> Te snel van onderwerp wisselen</span>
+            <span class="opdracht-title"><strong>Allergie:</strong> Stilstand, niets nieuws leren</span>
+            <span class="opdracht-title"><strong>Uitdaging:</strong> Diepgang in plaats van breedte</span>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">Talenten/kwaliteiten</h2>
+            <p class="card-text">Ik heb tijdens WPL2 Vue.js van nul geleerd en dit meteen toegepast in een echte
+              applicatie. Ik pak nieuwe technologieën snel op en vind het leuk om te ontdekken hoe dingen werken. Dit
+              heeft ervoor gezorgd dat ik snel zelfstandig kon bijdragen aan de frontend.</p>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">Valkuilen</h2>
+            <p class="card-text">Mijn valkuil is dat ik soms te snel naar iets nieuws wil overstappen voordat ik het
+              huidige onderwerp echt goed beheers. Dit kan leiden tot oppervlakkige kennis in plaats van echte
+              expertise.</p>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">Allergieën</h2>
+            <p class="card-text">Ik word gefrustreerd wanneer er geen ruimte is om bij te leren of wanneer alles
+              altijd op dezelfde manier moet. Een omgeving die weinig groei toelaat werkt voor mij erg
+              demotiverend.</p>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">Uitdagingen/verbeterpunten</h2>
+            <p class="card-text">Ik wil meer diepgang ontwikkelen in de technologieën die ik gebruik. Concreet wil ik
+              bij een volgend project bewust tijd vrijmaken om bepaalde concepten echt grondig te begrijpen, in plaats
+              van enkel de werkende oplossing te zoeken.</p>
+          </div>
+
+          <p class="kernkwadrant-label">Kernkwadrant 2</p>
+          <div class="kernkwaliteit-container">
+            <span class="opdracht-title"><strong>Kernkwaliteit:</strong> Samenwerken</span>
+            <span class="opdracht-title"><strong>Valkuil:</strong> Te veel zelf oplossen</span>
+            <span class="opdracht-title"><strong>Allergie:</strong> Gebrek aan communicatie in het team</span>
+            <span class="opdracht-title"><strong>Uitdaging:</strong> Meer initiatief nemen in afstemming</span>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">Talenten/kwaliteiten</h2>
+            <p class="card-text">Ik werk goed samen en pas me aan de manier van werken van het team aan. In WPL2 heb ik
+              samengewerkt met zowel PRO- als DVO-studenten, wat een nieuwe dynamiek was. Ik heb geleerd hoe ik
+              technische keuzes bespreek met mensen die een andere achtergrond hebben.</p>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">Valkuilen</h2>
+            <p class="card-text">Mijn valkuil is dat ik problemen liever zelf oplos dan anderen erbij te betrekken.
+              Dit is soms efficiënter, maar in een team kan het zorgen voor een gebrek aan kennisdeling en
+              afstemming.</p>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">Allergieën</h2>
+            <p class="card-text">Slechte of geen communicatie in een team frustreert mij. Wanneer iedereen zijn eigen
+              ding doet zonder afstemming heeft dit een directe negatieve impact op het eindresultaat, wat ik tijdens
+              WPL2 ook heb gemerkt.</p>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">Uitdagingen/verbeterpunten</h2>
+            <p class="card-text">Ik wil meer initiatief nemen om afstemmingen op te starten en vragen te stellen
+              wanneer iets onduidelijk is. Dit kan ik aanpakken door tijdens een volgend project bewust regelmatiger
+              met teamleden in te checken over voortgang en verwachtingen.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="x-factor-wpl2">
+        <a class="title" href="#x-factor-wpl2">X-Factor</a>
+        <div class="reflectie-container">
+
+          <div class="card card-border">
+            <h2 class="card-title primary">(Em)passie</h2>
+            <p class="card-text">Ik heb met veel plezier aan de Vue.js frontend van ClockWise gewerkt. Het zien groeien
+              van een echte applicatie geeft me veel voldoening. Ook buiten WPL2 experimenteer ik thuis met
+              webprojecten, puur voor het plezier van het bouwen.</p>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">Ondernemend & innovatief</h2>
+            <p class="card-text">Tijdens WPL2 heb ik meegedacht over hoe we bepaalde features het beste kunnen
+              implementeren. Ik heb gesuggereerd om herbruikbare componenten te maken voor de tabellen en modals, wat
+              tijd heeft bespaard en de consistentie van de applicatie verhoogd.</p>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">(Internationaal) samen(net)werken</h2>
+            <p class="card-text">De samenwerking met 5 andere studenten — zowel PRO als DVO — was een grote stap in
+              vergelijking met WPL1. Ik heb geleerd hoe ik in een team communiceer, taken verdeel en afstem met mensen
+              die een andere achtergrond en vakgebied hebben.</p>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">Multi- & disciplinariteit</h2>
+            <p class="card-text">Door samen te werken met DVO-studenten heb ik gezien hoe design en development
+              samenkomen. Ik heb geleerd om vanuit een design-perspectief te denken en mijn technische keuzes af te
+              stemmen op de visuele verwachtingen van het team.</p>
+          </div>
+
+          <div class="card card-border">
+            <h2 class="card-title primary">Duurzaamheid</h2>
+            <p class="card-text">ClockWise draagt bij aan een efficiëntere, papierloze tijdregistratie voor bedrijven.
+              Dit sluit aan bij digitale duurzaamheid: minder papier, minder administratieve verspilling en een
+              overzichtelijker systeem voor de lange termijn.</p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="components/navbar.js" defer></script>
+</body>
+
+</html>
